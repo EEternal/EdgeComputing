@@ -4,7 +4,7 @@
 #include <map>
 using namespace std;
 
-const double REQUIREMENT = 9;				//时间约束
+const double REQUIREMENT = 4;				//时间约束
 const int E = 5;							//所有的边缘服务器数目
 const double Vn = 27;						//数据率
 //const double T = 1;						//小车运动周期
