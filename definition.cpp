@@ -36,3 +36,7 @@ int select_main_ES(map<int, double> val, vector<pair<int, double>>& sorted) {
 	sort(sorted.begin(), sorted.end(), cmp);
 	return sorted.front().first;
 }
+
+void initial_QL() {
+	que[1].push_back(10);
+}

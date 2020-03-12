@@ -4,8 +4,8 @@
 #include <map>
 using namespace std;
 
-const double REQUIREMENT = 4;				//时间约束
-const int E = 5;							//所有的边缘服务器数目
+const double REQUIREMENT = 1.5;				//时间约束   8 3 1.5
+const int E = 10;							//所有的边缘服务器数目
 const double Vn = 27;						//数据率
 //const double T = 1;						//小车运动周期
 
@@ -28,6 +28,7 @@ struct Task {
 };
 
 void initial_ESL(vector<int>& Es);
+void initial_QL();
 void delete_es(int val);
 void choose_es(int param1, double param2);
 void delete_task_in_queue(int param1, double param2);

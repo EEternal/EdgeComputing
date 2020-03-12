@@ -22,7 +22,7 @@ vector<int> CEC(struct  Task t) {
 	main_ES = select_main_ES(IN, sorted);
 	for (int i = 1; i < E; i++) {
 		temp_sum += sorted.at(i).second;
-		Result.push_back(sorted.at(i).first);
+		Result.push_back(sorted.at(i).first + 1);
 		if (temp_sum > t.target) {
 			break;
 		}
